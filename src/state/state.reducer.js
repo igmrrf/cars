@@ -1,9 +1,9 @@
 import StateActionTypes from "./state.types";
 
 const initialState = {
-  makes: null,
-  models: null,
-  vehicles: null,
+  makes: [],
+  models: [],
+  vehicles: [],
   isFetching: false,
   errorMessage: null,
 };
@@ -71,4 +71,4 @@ const stateReducer = (state = initialState, action) => {
       return state;
   }
 };
-export default stateReducer();
+export default stateReducer;

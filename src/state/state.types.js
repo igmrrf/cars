@@ -9,3 +9,4 @@ const StateActionTypes = {
   GET_VEHICLES_SUCCESS: "GET_VEHICLES_SUCCESS",
   GET_VEHICLES_FAILURE: "GET_VEHICLES_FAILURE",
 };
+export default StateActionTypes;
